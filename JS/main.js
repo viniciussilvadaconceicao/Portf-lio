@@ -9,7 +9,7 @@ function meuMenufunção(){
     }
     }
 
-/* */
+/* BARRA DE NAVEGAÇÃO FUNÇÕES  */
 window.onscroll = function() {headerShadow()};
 
 function headerShadow() {
