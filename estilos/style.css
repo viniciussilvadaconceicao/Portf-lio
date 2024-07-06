@@ -186,3 +186,33 @@ nav{
     width: 50%;
     padding-left: 20px;
 }
+.featured-text-card{
+    background: var(--third-color);
+    color: var(--color-white);
+    padding: 3px 8px;
+    font: size 12px;
+    border-radius: 5px;
+}
+.featured-name{
+    font-weight: 50px;
+    font-weight: 600;
+    color: var(--text-color-second);
+    margin-block: 20px 0;
+}
+.typedTexto{
+    text-transform: capitalize;
+    color: var(--text-color-third);
+}
+.featured-texto-info{
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: var(--text-color-second);
+}
+.featured-text-btn{
+    display: flex;
+    gap: 20px;
+}
+.featured-text-btn>.blue-btn{
+    background: var(--first-color);
+    color:var(--color-white);
+}
