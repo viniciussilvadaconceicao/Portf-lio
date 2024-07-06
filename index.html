@@ -3,46 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portfólio</title>
+    <!--UNICON-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--CSS-->
     <link rel="stylesheet" href="estilos/style.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="imagens/logo.V.png" type="image/x-icon">
+    <title>Meu portfólio</title>
+    
 </head>
 <body>
-    <main>
-         <header>
-            <h1>Portfólio de Vinicius Silva da Conceição</h1>
-         </header>
-         <article>
-            <h2>Ensino superior em Engenharia de Software</h2>
-            <p>Sou aluno do 3° periodo do curso de engenharia de Software da univassouras , estou atualmente fazendo cursos para ganhar mais conhecimento</p>
-        <article>
-            <h2>Cursos de HTML5 com CSS3</h2>
-            <p>curso feito na plataforma curso em video com certificado 40horas</p>
-        </article>
-        <article>
-            <h2>Curso de javascript</h2>
-           <img class="lado" src="imagens/javascript.jpg" alt="curso javascript">
-           <p>Curso feito na plataforma curso em video com certificado de 
-            40horas complementáres, reforçando o conhecimento adiquirido 
-            em aula na universidade Vassouras</p>
-            <br>
-        </article>
-         </article>
-         <article>
-            <h2>Curso de Git + Github</h2>
-            <img class="lado" src="imagens/git+github.jpg" alt="curso git+github">
-            <p>Curso feito na plataforma curso em video com certificado de 
-            20horas complementáres, reforçando o conhecimento adiquirido 
-            em aula na universidade Vassouras</p>
-            <br> 
-        </article>
-        <article>
-            <h2>Curso de Python</h2>
-            <img class="lado" src="imagens/python.jpg" alt="curso python">
-            <p>Curso feito na plataforma curso em video com certificado de 
-                40horas complementáres, reforçando o conhecimento adiquirido 
-                em aula na universidade Vassouras</p>
-            <br>
-        </article>
-    </main>
+    <header>
+        <div class="interface">
+    <!------------------------HEADER---------------------------->
+            <nav id="header">
+                <div class="nav-logo">
+                    <p class="nav-name">Vinicius</p>
+                    <span>.</span>
+                </div><!--logo -->
+                <div class="nav-menu" id="meuNavMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_menu_list">
+                            <a href="#menu" class="nav-link">Menu</a>
+                            <div class="circulo"></div>
+                        </li>
+                        <li class="nav_menu_list">
+                            <a href="#sobre" class="nav-link">Sobre</a>
+                            <div class="circulo"></div>
+                        </li>
+                        <li class="nav_menu_list">
+                            <a href="#projetos" class="nav-link">Projetos</a>
+                            <div class="circulo"></div>
+                        </li>
+                        <li class="nav_menu_list">
+                            <a href="#contato" class="nav-link">Contatos</a>
+                            <div class="circulo"></div>
+                        </li>
+                    </ul>
+                </div>
+               <div class="nav-button">
+                <button class="btn">Download cv <i class="uil uil-file-alt"></i></button>
+               </div>
+               <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="meuMenufunção"></i>
+               </div>
+            </nav>
+            <div class="contato">
+                <a href="#">
+                </a>
+            </div>
+        </div><!--interface -->
+    </header>
+    <!--TYPING JS LINK-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--SCROLLREVEAL JS link-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--MEU JS-->
+    <script src="JS/main.js"></script>
 </body>
 </html>
