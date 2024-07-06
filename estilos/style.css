@@ -259,7 +259,13 @@ nav{
     width: 380px;
     height: 380px;
     object-fit: cover;
-   
+}
+
+@media only screen and (max-width: 900px){
+    .imagem img{
+        width: 200px;
+        height: 200px;
+    }
 }
 @keyframes imgFloat{
     50%{
